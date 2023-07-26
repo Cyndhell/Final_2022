@@ -27,17 +27,45 @@ A new  preventative vaccine (covid921) is under test in clinical trials. Given t
 $H_0$: The Covid19 vaccine (drug) is not effective among subgroups users.   
 $H_A$: The Covid19 vaccine (drug) is effective among subgroups users.
 
+
 ## Males
+
+## Methods
+# Results
+## Descriptive Results
+### Graphical Descriptive Results
+### Numerical Descriptive Results
+## Inferential Results
 
 
 ## Females
 
+## Methods
+# Results
+## Descriptive Results
+### Graphical Descriptive Results
+### Numerical Descriptive Results
+## Inferential Results
+
 
 ## LGBTQ
 
+## Methods
+# Results
+## Descriptive Results
+### Graphical Descriptive Results
+### Numerical Descriptive Results
+## Inferential Results
 
 
 ## Druggies
+
+## Methods
+# Results
+## Descriptive Results
+### Graphical Descriptive Results
+### Numerical Descriptive Results
+## Inferential Results
 
 
 # Overall Results and Conclusions
