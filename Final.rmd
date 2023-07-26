@@ -28,40 +28,40 @@ $H_0$: The Covid19 vaccine (drug) is not effective among subgroups users.
 $H_A$: The Covid19 vaccine (drug) is effective among subgroups users.
 
 
-## Males
+# Males
 
 ## Methods
-# Results
+## Results
 ## Descriptive Results
 ### Graphical Descriptive Results
 ### Numerical Descriptive Results
 ## Inferential Results
 
 
-## Females
+# Females
 
 ## Methods
-# Results
+## Results
 ## Descriptive Results
 ### Graphical Descriptive Results
 ### Numerical Descriptive Results
 ## Inferential Results
 
 
-## LGBTQ
+# LGBTQ
 
 ## Methods
-# Results
+## Results
 ## Descriptive Results
 ### Graphical Descriptive Results
 ### Numerical Descriptive Results
 ## Inferential Results
 
 
-## Druggies
+# Druggies
 
 ## Methods
-# Results
+## Results
 ## Descriptive Results
 ### Graphical Descriptive Results
 ### Numerical Descriptive Results
