@@ -31,43 +31,146 @@ $H_A$: The Covid19 vaccine (drug) is effective among subgroups users.
 # Males
 
 ## Methods
+
 ## Results
+
+```{r}
+maleData = filter (FinalData,sex == "M")
+```
+
 ## Descriptive Results
+
 ### Graphical Descriptive Results
+
+```{r}
+barchartGC(~infected + treatment,data=maleData)
+barchartGC(~infected + treatment,data=maleData, type="percent")
+```
+
+
 ### Numerical Descriptive Results
 
+```{r}
+table1 <- xtabs(~infected + treatment, data= maleData)
+rowPerc(table1)
+colPerc(table1)
+```
+
+## Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
 # Females
 
 ## Methods
 ## Results
+
+```{r}
+femaleData = filter (FinalData,sex == "F")
+```
+
 ## Descriptive Results
+
 ### Graphical Descriptive Results
+
+```{r}
+barchartGC(~infected + treatment,data=femaleData)
+barchartGC(~infected + treatment,data=femaleData, type="percent")
+```
+
+
 ### Numerical Descriptive Results
 
+```{r}
+table2 <- xtabs(~infected + treatment, data=femaleData)
+rowPerc(table2)
+colPerc(table2)
+```
 
+## Inferential Results
+
+```{r}
+chisq.test(table2)
+chisqtestGC(table2)
+fisher.test(table2)
+```
 
 # LGBTQ
 
 ## Methods
 ## Results
+
+```{r}
+LGBTQ = filter (FinalData,LGBTQ == "gay")
+```
+
 ## Descriptive Results
 ### Graphical Descriptive Results
+
+```{r}
+barchartGC(~infected + treatment,data=LGBTQ)
+barchartGC(~infected + treatment,data=LGBTQ, type="percent")
+```
+
+
 ### Numerical Descriptive Results
 
+```{r}
+table3 <- xtabs(~infected + treatment, data=LGBTQ)
+rowPerc(table3)
+colPerc(table3)
+```
+
+## Inferential Results
+
+
+```{r}
+chisq.test(table3)
+chisqtestGC(table3)
+fisher.test(table3)
+```
 
 
 # Druggies
 
 ## Methods
 ## Results
+
+```{r}
+DrugUser = filter (FinalData, DrugUser == "yes")
+```
+
 ## Descriptive Results
+
 ### Graphical Descriptive Results
+
+```{r}
+barchartGC(~infected + treatment,data=DrugUser)
+barchartGC(~infected + treatment,data=DrugUser, type="percent")
+```
+
+
 ### Numerical Descriptive Results
+
+```{r}
+table4 <- xtabs(~infected + treatment, data=DrugUser)
+rowPerc(table4)
+colPerc(table4)
+```
 
 
 ## Inferential Results
+
+```{r}
+chisq.test(table4)
+chisqtestGC(table4)
+fisher.test(table4)
+```
 
 
 # Overall Results and Conclusions
