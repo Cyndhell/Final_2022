@@ -35,7 +35,7 @@ $H_A$: The Covid19 vaccine (drug) is effective among subgroups users.
 ## Descriptive Results
 ### Graphical Descriptive Results
 ### Numerical Descriptive Results
-## Inferential Results
+
 
 
 # Females
@@ -45,7 +45,7 @@ $H_A$: The Covid19 vaccine (drug) is effective among subgroups users.
 ## Descriptive Results
 ### Graphical Descriptive Results
 ### Numerical Descriptive Results
-## Inferential Results
+
 
 
 # LGBTQ
@@ -55,7 +55,7 @@ $H_A$: The Covid19 vaccine (drug) is effective among subgroups users.
 ## Descriptive Results
 ### Graphical Descriptive Results
 ### Numerical Descriptive Results
-## Inferential Results
+
 
 
 # Druggies
@@ -65,6 +65,8 @@ $H_A$: The Covid19 vaccine (drug) is effective among subgroups users.
 ## Descriptive Results
 ### Graphical Descriptive Results
 ### Numerical Descriptive Results
+
+
 ## Inferential Results
 
 
