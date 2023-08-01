@@ -30,7 +30,15 @@ $H_A$: The Covid19 vaccine (drug) is effective among subgroups users.
 
 # Males
 
+$H_0$:The vaccine is not effective in preventing Covid in males   
+$H_A$: The vaccine is effective in preventing Covid in males
+
+Data for this study came from a FinalData file, provided by the professor.
+
 ## Methods
+The response method used is cat-cat. Data used was based on data from FinalData. We have to subset the data to include male.
+Graphical display: bar chart, numerical display and inferential results
+
 
 ## Results
 
@@ -47,7 +55,8 @@ barchartGC(~infected + treatment,data=maleData)
 barchartGC(~infected + treatment,data=maleData, type="percent")
 ```
 
-The Covid-19
+The graph shows among those who got covid, the males who did got vaccine there was a difference between 30% with covid and 70% with placebo. Meanwhile Among the people who were OK that toke the vaccine, there was no significant difference.
+
 
 ### Numerical Descriptive Results
 
@@ -57,7 +66,8 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The table shows that
+The table shows that among the people who toke the vaccine that got Covid there was a 2X difference. The people that took the placebo with 70% chance of not being infected and 30% less likely for the people that took the vaccine. Among the people that were Ok and took the vaccine there was no significant difference.
+
 
 ## Inferential Results
 
@@ -67,12 +77,18 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The p-value for male is 0.0000000000001098 the p-value is too small that's why we failed to reject the null hypothesis.
+The p-value for male is 0.0000000000001098 the p-value is too small that's why we failed to reject the null hypothesis. The vaccine is not effective in preventing Covid among males.Based on the Fisher's Exact you are P-value:0.00000000000004631 less likely to get covid. We will fail to reject the null hypothesis. If you take the placebo or covid you are in the same likely hood of receiving covid if you are a male.
 
 
 # Females
 
 ## Methods
+
+$H_0$:The vaccine is not effective in preventing Covid in Females.      
+$H_A$:  The vaccine is effective in preventing Covid in Females.    
+Data for this study came from a FinalData file, provided by the professor.
+
+
 ## Results
 
 ```{r}
