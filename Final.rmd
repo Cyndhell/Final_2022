@@ -183,7 +183,15 @@ The Chi-squared value is 0.00000006668 is too small, so vaccine is not effective
 
 # Druggies
 
+$H_0$: The vaccine is not effective in preventing Covid in Druggies    
+$H_A$: The vaccine is effective in preventing Covid in Druggies    
+Data for this study came from a FinalData file, provided by the professor.
+
 ## Methods
+
+The response method used is cat-cat. Data used was based on data from FinalData. We have to subset the data to include Druggies.   
+Graphical display: bar chart, numerical display and inferential results numerical display
+
 ## Results
 
 ```{r}
@@ -199,6 +207,8 @@ barchartGC(~infected + treatment,data=DrugUser)
 barchartGC(~infected + treatment,data=DrugUser, type="percent")
 ```
 
+The graph shows among those who had covid, the Druggies who did get vaccineted there was a difference between 88% with covid and 12% with placebo. Meanwhile Among the people who were OK that toke the vaccine, there was no significant difference.
+
 
 ### Numerical Descriptive Results
 
@@ -207,6 +217,8 @@ table4 <- xtabs(~infected + treatment, data=DrugUser)
 rowPerc(table4)
 colPerc(table4)
 ```
+
+The table shows that among the Druggies who toke the vaccine that got Covid there was a difference. The Druggies that took the placebo with 12% chance of not being infected and 88% less likely for the Druggies that took the vaccine. Among the people that were Ok and took the vaccine there was no significant diligence
 
 
 ## Inferential Results
@@ -217,5 +229,9 @@ chisqtestGC(table4)
 fisher.test(table4)
 ```
 
+The Chi-squared value is p-value = 0.000000002842 is too small, so vaccine is not effective in preventing spread of Covid among other people. Based on the Fisher's Exact vaccine you are 0.000000000232 less likely to get covid. We will we fail to reject the null hypothesis. The information provided shows that the vaccine does not prevent Covid.
+
 
 # Overall Results and Conclusions
+
+The original question was, is the covid vaccine effective in preventing Covid. Base on Data provided we have found that the vaccine is not effective in preventing Covid. We fail to reject the null based on data provided.
