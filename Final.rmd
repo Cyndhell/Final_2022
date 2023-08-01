@@ -82,12 +82,14 @@ The p-value for male is 0.0000000000001098 the p-value is too small that's why w
 
 # Females
 
-## Methods
-
 $H_0$:The vaccine is not effective in preventing Covid in Females.      
 $H_A$:  The vaccine is effective in preventing Covid in Females.    
 Data for this study came from a FinalData file, provided by the professor.
 
+## Methods
+
+The response method used is cat-cat. Data used was based on data from FinalData. We have to subset the data to include female.        
+Graphical display: bar chart, numerical display and inferential results numerical display
 
 ## Results
 
@@ -104,6 +106,8 @@ barchartGC(~infected + treatment,data=femaleData)
 barchartGC(~infected + treatment,data=femaleData, type="percent")
 ```
 
+The graph shows among those who had covid, the females who did get vaccineted there was a difference of about 40% with covid and 60% placebo. Meanwhile Among the females who were OK that toke the vaccine, there was no significant difference.
+
 
 ### Numerical Descriptive Results
 
@@ -113,6 +117,9 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
+The table shows that among the females who toke the vaccine that took the Covid vaccine there was a 20% difference in those who are vaccinated. The people that took the placebo with 20% more chance of being infected. Among the people that were Ok and took the vaccine there was no significant difference.
+
+
 ## Inferential Results
 
 ```{r}
@@ -120,6 +127,8 @@ chisq.test(table2)
 chisqtestGC(table2)
 fisher.test(table2)
 ```
+
+The Chi-squared value is 0.0002732 is too small, so vaccine is not effective in preventing covid among males. Based on the Fisher's Exact you are P-value:0.0002162 less likely to get covid. We will fail to reject the null hypothesis. If you take the placebo or covid you are in the same likely hood of receiving covid if you are a female.
 
 
 # LGBTQ
