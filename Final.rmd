@@ -105,6 +105,7 @@ chisqtestGC(table2)
 fisher.test(table2)
 ```
 
+
 # LGBTQ
 
 ## Methods
