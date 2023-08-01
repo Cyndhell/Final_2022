@@ -47,6 +47,7 @@ barchartGC(~infected + treatment,data=maleData)
 barchartGC(~infected + treatment,data=maleData, type="percent")
 ```
 
+The Covid-19
 
 ### Numerical Descriptive Results
 
@@ -56,6 +57,8 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+The table shows that
+
 ## Inferential Results
 
 ```{r}
@@ -63,6 +66,8 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
+
+The p-value for male is 0.0000000000001098 the p-value is too small that's why we failed to reject the null hypothesis.
 
 
 # Females
