@@ -152,8 +152,6 @@ barchartGC(~infected + treatment,data=LGBTQ)
 barchartGC(~infected + treatment,data=LGBTQ, type="percent")
 ```
 
-The graph shows among those who had covid, the LGBTQ who did got vaccine there was a difference between 80% with covid and 20% with placebo. Meanwhile Among the people who were OK that toke the vaccine, there was no significant difference.
-
 According to the graph, among individuals who received the vaccination and had covid, there was an 80% covid compared. 20% placebo difference. There was no apparent variance among those who received vaccinations and were OK.
 
 
