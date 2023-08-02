@@ -80,8 +80,8 @@ The p-value for male is 0.0000000000001098 the p-value is too small that's why w
 
 # Females
 
-$H_0$:The vaccine is not effective in preventing Covid in Females.      
-$H_A$:  The vaccine is effective in preventing Covid in Females.    
+$H_0$:The vaccine is not effective in preventing Covid-19 in Females.      
+$H_A$:  The vaccine is effective in preventing Covid-19 in Females.    
 Data for this study came from a FinalData file, provided by the professor.
 
 ## Methods
@@ -104,8 +104,7 @@ barchartGC(~infected + treatment,data=femaleData)
 barchartGC(~infected + treatment,data=femaleData, type="percent")
 ```
 
-The graph shows among those who had Covid-19, the females who did get vaccineted there was a difference of about 40% with Covid-19 and 60% placebo. Meanwhile Among the females who were OK that toke the vaccine, there was no significant difference.
-
+According to the graph, among those who received Covid-19, there was a difference between 40% Covid-19 and 60% placebo among the females who received the vaccination. The Female who received the vaccination and were OK showed no noticeable difference.
 
 ### Numerical Descriptive Results
 
@@ -115,7 +114,7 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
-The table shows that among the females who toke the vaccine that took the Covid vaccine there was a 20% difference in those who are vaccinated. The people that took the placebo with 20% more chance of being infected. Among the people that were Ok and took the vaccine there was no significant difference.
+According to the table, there was a 20% difference in vaccination rates among females who received the Covid-19 vaccine. The likelihood of infection was 20% higher in those who took the placebo. There was no discernible difference among those who received the vaccination.
 
 
 ## Inferential Results
