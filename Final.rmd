@@ -55,8 +55,7 @@ barchartGC(~infected + treatment,data=maleData)
 barchartGC(~infected + treatment,data=maleData, type="percent")
 ```
 
-The graph shows among those who got covid, the males who did got vaccine there was a difference between 30% with covid and 70% with placebo. Meanwhile Among the people who were OK that toke the vaccine, there was no significant difference.
-
+According to the graph, there was a difference between 30% with covid and 70% with placebo among the guys who received the vaccination and those who received covid. There was little difference among those who received the vaccinations and were "OK."
 
 ### Numerical Descriptive Results
 
@@ -66,8 +65,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The table shows that among the people who toke the vaccine that got Covid there was a 2X difference. The people that took the placebo with 70% chance of not being infected and 30% less likely for the people that took the vaccine. Among the people that were Ok and took the vaccine there was no significant difference.
-
+The table demonstrates that there was a 2X difference among those who received the vaccinations and experienced Covid. 70% of those who took the placebo did not get the disease, compared to 30% of those who got the vaccination. There was not a noticeable distinction among those who received vaccinations and were OK.
 
 ## Inferential Results
 
@@ -77,7 +75,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The p-value for male is 0.0000000000001098 the p-value is too small that's why we failed to reject the null hypothesis. The vaccine is not effective in preventing Covid among males.Based on the Fisher's Exact you are P-value:0.00000000000004631 less likely to get covid. We will fail to reject the null hypothesis. If you take the placebo or covid you are in the same likely hood of receiving covid if you are a male.
+The p-value for male is 0.0000000000001098 the p-value is too small that's why we failed to reject the null hypothesis. The vaccine is not effective in preventing Covid-19 among males. Based on the Fisher's Exact test the P-value is 0.00000000000004631 the p-value is too small and this is less likely to get Covid-19. We will fail to reject the null hypothesis. If you are a males, your chances of acquiring covid are the same whether you take the placebo or Covid-19.
 
 
 # Females
