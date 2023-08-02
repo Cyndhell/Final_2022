@@ -36,9 +36,9 @@ $H_A$: The vaccine is effective in preventing Covid in males
 Data for this study came from a FinalData file, provided by the professor.
 
 ## Methods
-The response method used is cat-cat. Data used was based on data from FinalData. We have to subset the data to include male.
-Graphical display: bar chart, numerical display and inferential results
 
+The response method used is Cat~Cat. Data used was based on data from FinalData. We have to subset the data to include male.
+Graphical display: bar chart, numerical display and inferential results
 
 ## Results
 
@@ -88,7 +88,7 @@ Data for this study came from a FinalData file, provided by the professor.
 
 ## Methods
 
-The response method used is cat-cat. Data used was based on data from FinalData. We have to subset the data to include female.        
+The response method used is Cat~Cat. Data used was based on data from FinalData. We have to subset the data to include female.        
 Graphical display: bar chart, numerical display and inferential results numerical display
 
 ## Results
@@ -139,7 +139,7 @@ Data for this study came from a FinalData file, provided by the professor.
 
 ## Methods
 
-The response method used is cat-cat. Data used was based on data from FinalData. We have to subset the data to include LGBTQ.    
+The response method used is Cat~Cat. Data used was based on data from FinalData. We have to subset the data to include LGBTQ.    
 Graphical display: bar chart, numerical display and inferential results numerical display
 
 ## Results
@@ -189,7 +189,7 @@ Data for this study came from a FinalData file, provided by the professor.
 
 ## Methods
 
-The response method used is cat-cat. Data used was based on data from FinalData. We have to subset the data to include Druggies.   
+The response method used is Cat~Cat used was based on data from FinalData. We have to subset the data to include Druggies.   
 Graphical display: bar chart, numerical display and inferential results numerical display
 
 ## Results
