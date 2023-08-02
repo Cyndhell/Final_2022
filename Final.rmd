@@ -114,7 +114,7 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
-According to the table, there was a 20% difference in vaccination rates among females who received the Covid-19 vaccine. The likelihood of infection was 20% higher in those who took the placebo. There was no discernible difference among those who received the vaccination.
+According to the table, there was a 20% difference in vaccination rates among females who received the Covid-19 vaccine. The female who recieve the vaccine (40%) and the placebo (60%). There is no difference among those who received the vaccination.
 
 
 ## Inferential Results
@@ -153,6 +153,9 @@ barchartGC(~infected + treatment,data=LGBTQ, type="percent")
 ```
 
 The graph shows among those who had covid, the LGBTQ who did got vaccine there was a difference between 80% with covid and 20% with placebo. Meanwhile Among the people who were OK that toke the vaccine, there was no significant difference.
+
+According to the graph, among individuals who received the vaccination and had covid, there was an 80% covid compared. 20% placebo difference. There was no apparent variance among those who received vaccinations and were OK.
+
 
 ### Numerical Descriptive Results
 
