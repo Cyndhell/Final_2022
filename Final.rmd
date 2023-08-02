@@ -125,8 +125,7 @@ chisqtestGC(table2)
 fisher.test(table2)
 ```
 
-The Chi-squared value is 0.0002732 is too small, so vaccine is not effective in preventing covid among males. Based on the Fisher's Exact you are P-value:0.0002162 less likely to get covid. We will fail to reject the null hypothesis. If you take the placebo or covid you are in the same likely hood of receiving covid if you are a female.
-
+The Chi-squared p-value is 0.002732the p-value is too small, so the vaccine is not effective in preventing covid-19 among females. Based on the Fisher's Exact test the p-value is 0.0002162. We failed to reject the null hypothesis, because the p-value is too small.
 
 # LGBTQ
 
