@@ -65,7 +65,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The table demonstrates that there was a 2X difference among those who received the vaccinations and experienced Covid-19. 70% of those who took the placebo did not get the disease, compared to 30% of those who got the vaccination. There was not a noticeable distinction among those who received vaccinations and were OK.
+The table demonstrates that there was a 2 times difference among those who received the vaccinations and experienced Covid-19. 70% of those who took the placebo did not get the disease, compared to 30% of those who got the vaccination. There was not a noticeable distinction among those who received vaccinations and were OK.
 
 ## Inferential Results
 
@@ -175,7 +175,7 @@ chisqtestGC(table3)
 fisher.test(table3)
 ```
 
-The Chi-squared value is 0.00000006668 is too small, so vaccine is not effective in preventing spread of vaccine among LGBTQ. Based on the Fisher's Exact test P-value are 0.00000000000004631. We fail to reject the null hypothesis. If you take the placebo or covid you are in the same likely hood of receiving covid if you are a LGBTQ.
+The Chi-squared value is 0.00000006668 is too small, so vaccine is not effective in preventing spread of vaccine among LGBTQ. Based on the Fisher's Exact test P-value are 0.00000001029. We fail to reject the null hypothesis. If you take the placebo or covid you are in the same likely hood of receiving covid if you are a LGBTQ.
 
 
 # Druggies
@@ -226,7 +226,7 @@ chisqtestGC(table4)
 fisher.test(table4)
 ```
 
-The Chi-squared value is p-value 0.000000002842 is too small, so vaccine is not effective in preventing spread of Covid-19 among other people. Based on the Fisher's Exact test the p-value is 0.000000000232. We fail to reject the null hypothesis. The information provided shows that the vaccine does not prevent Covid.
+The Chi-squared value is p-value 0.000000002842 is too small, so vaccine is not effective in preventing spread of Covid-19 among other people. Based on the Fisher's Exact test the p-value is 0.000000000232. We fail to reject the null hypothesis. The information provided shows that the vaccine does not prevent Covid-19.
 
 
 # Overall Results and Conclusions
