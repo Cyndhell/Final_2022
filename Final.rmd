@@ -127,6 +127,7 @@ fisher.test(table2)
 
 The Chi-squared p-value is 0.002732 the p-value is too small, so the vaccine is not effective in preventing covid-19 among females. Based on the Fisher's Exact test the p-value is 0.0002162. We failed to reject the null hypothesis, because the p-value is too small.
 
+
 # LGBTQ
 
 $H_0$: The vaccine is not effective in preventing Covid in LGBTQ   
@@ -152,7 +153,7 @@ barchartGC(~infected + treatment,data=LGBTQ)
 barchartGC(~infected + treatment,data=LGBTQ, type="percent")
 ```
 
-According to the graph, among individuals who received the vaccination and had covid, there was an 80% covid compared. 20% placebo difference. There was no apparent variance among those who received vaccinations and were OK.
+According to the graph, among individuals who received the vaccination and had Covid-19, there was an 80% Covid-19 compared. 20% placebo difference. There was no apparent variance among those who received vaccinations and were OK.
 
 
 ### Numerical Descriptive Results
@@ -163,8 +164,7 @@ rowPerc(table3)
 colPerc(table3)
 ```
 
-The table shows that among the people who toke the vaccine that had Covid there was a 40% difference in those who got covid. The people that took the placebo with 20% chance of not being infected and 80% less likely for the peolple that took the vaccine. Among the people that were Ok and took the vaccine there was no significant difference.
-
+According to the table, there was a 40% difference in individuals who contracted Covid-19 among those who received the vaccination. About 80% of those who received the placebo had a 20% chance of not becoming sick. There was no discernible difference among those who received vaccinations and were OK.
 
 ## Inferential Results
 
@@ -204,7 +204,7 @@ barchartGC(~infected + treatment,data=DrugUser)
 barchartGC(~infected + treatment,data=DrugUser, type="percent")
 ```
 
-The graph shows among those who had covid, the Druggies who did get vaccineted there was a difference between 88% with covid and 12% with placebo. Meanwhile Among the people who were OK that toke the vaccine, there was no significant difference.
+The graph shows among those who had covid, the Druggies who did get vaccinated there was a difference between 88% with covid and 12% with placebo. Meanwhile Among the people who were OK that toke the vaccine, there was no significant difference.
 
 
 ### Numerical Descriptive Results
