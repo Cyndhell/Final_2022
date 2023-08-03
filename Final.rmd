@@ -231,8 +231,5 @@ The Chi-squared value is p-value 0.000000002842 is too small, so vaccine is not 
 
 # Overall Results and Conclusions
 
-The original question was, is the Covid-19 vaccine effective in preventing Covid-19. Base on Data provided we have found that the vaccine is not effective in preventing Covid-19. We fail to reject the null based on data provided.
-
-
-In conclusion....
+In conclusion the question was the Covid-19 vaccination is successful in preventing Covid-19? We have discovered that the vaccination is ineffective at preventing Covid-19 based on the data provided. We are fail to reject the null hypothesis on the data provided.
 
