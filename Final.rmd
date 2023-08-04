@@ -204,8 +204,7 @@ barchartGC(~infected + treatment,data=DrugUser)
 barchartGC(~infected + treatment,data=DrugUser, type="percent")
 ```
 
-The graph shows among those who had Covid-19, the Druggies who did get vaccinated there was a difference between 88% with Covid-19 and 12% with placebo. Meanwhile Among the people who were OK that toke the vaccine, there was no significant difference.
-
+The graph shows among those who had Covid-19, the Druggies who did get vaccinated there was a difference between 88% with Covid-19 and about 10% with placebo. 
 
 ### Numerical Descriptive Results
 
@@ -215,7 +214,7 @@ rowPerc(table4)
 colPerc(table4)
 ```
 
-The table shows that among the Druggies who toke the vaccine that got Covid there was a difference. The Druggies that took the placebo with 12% chance of not being infected and 88% less likely for the Druggies that took the vaccine. Among the people that were Ok and took the vaccine there was no significant diligence
+The table shows that among the Druggies who took the vaccine that got Covid-19 there was a difference. The Druggies that took the placebo with 12% chance of not being infected and 88% for the Druggies. Among the people that were OK and took the vaccine there was no significant diligence.
 
 
 ## Inferential Results
@@ -231,5 +230,7 @@ The Chi-squared value is p-value 0.000000002842 is too small, so vaccine is not 
 
 # Overall Results and Conclusions
 
-In conclusion the question was the Covid-19 vaccination is successful in preventing Covid-19? We have discovered that the vaccination is ineffective at preventing Covid-19 based on the data provided. We are fail to reject the null hypothesis on the data provided.
+In the original question we asked if the vaccine was able to prevent Covid-19 among these subgroups: males, females, LGBTQ and drug users. We have found that the vaccine is ineffective at preventing Covid-19 in those subgroups, therefore we fail to reject the null hypothesis.
+
+We aimed for to know if Covid-19 was successfully prevented by the vaccinations in the male subgroup. Our findings ultimately lead us to draw the conclusion that the vaccination is ineffective in protecting males against COVID-19. We fail to reject the null hypothesis for this subgroup. We fail to reject the null hypothesis since the vaccination was unable to prevent Covid-19 in the subgroup of females when the same question was presented. The results of our research show that the vaccination did not successfully prevent Covid-19, and since the LGBTQ population was also included in the study, we are fail to reject the null hypothesis. Like as well in the drug users asked the same questions, and because our findings show that the vaccinations did not prevent Covid-19, we failed to reject the null hypothesis.
 
